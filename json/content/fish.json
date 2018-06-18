@@ -16,6 +16,7 @@
 		"fb":"https://www.facebook.com/",
 		"ok":"https://ok.ru/group/",
 		"tw":"https://twitter.com/",
+		"yb":"https://www.youtube.com/",
 		"inst":"https://www.instagram.com/"
 	},
 	"page":{
@@ -27,7 +28,6 @@
 		"catalog":"/catalog.html",
 		"catalog_card":"/catalog-card.html",
 		"meteorites_classifications":"/meteorites-classifications.html",
-		"about":"/about.html",
 		"activity_expeditions":"/activity-expeditions.html",
 		"404":"/404.html",
 		"sitemap":"/sitemap.html",
