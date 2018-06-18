@@ -1,0 +1,79 @@
+<header class="{{block_prefix}}block">
+	<div class="container {{block_prefix}}container">			
+		<div class="{{block_prefix}}heading-small">{{block_heading_small}}</div>
+		<h1 class="{{block_prefix}}heading">{{block_heading}}</h1>
+		[[azbntple 
+			tpl="/src/block/site/default/bg/card.html"
+			block_prefix="bg-block__"
+			block_mod="is--index-header"
+			block_bg="bg-index-header.png"
+			block_speed="  "
+		]]	
+		[[azbntple 
+			tpl="/src/block/site/default/bg/card.html"
+			block_prefix="bg-block__"
+			block_mod="is--index-text"
+			block_bg="bg-index-text.png"
+			block_speed="is--speed-15  is--parallax"
+		]]	
+		<div class="{{block_prefix}}slick-block">
+			<div class="{{block_prefix}}slick-bg"><img src="{{url-path-img}}/temp/bg-header-slider.png" alt=""></div>
+			<div class="{{block_prefix}}slick-slider">
+				<div class="{{block_prefix}}slick" data-slider-slick="slick-header">
+					<div class="{{block_prefix}}slick-item">
+						[[azbntple 
+							tpl="/src/block/site/default/card/card-catalog-slider.html"
+							block_prefix="card-item__" 
+							block_mod="is--catalog-slider"
+							block_link="{{page.catalog_card}}"
+							block_preview="{{url-path-img}}/temp/card-catalog0-320x240.png"
+							block_heading="Big badaboom X90"
+						]]
+					</div>
+					<div class="{{block_prefix}}slick-item">
+						[[azbntple 
+							tpl="/src/block/site/default/card/card-catalog-slider.html"
+							block_prefix="card-item__" 
+							block_mod="is--catalog-slider"
+							block_link="{{page.catalog_card}}"
+							block_preview="{{url-path-img}}/temp/card-catalog1-1-320x240.png"
+							block_heading="Валун ХА1"
+						]]
+					</div>
+					<div class="{{block_prefix}}slick-item">
+						[[azbntple 
+							tpl="/src/block/site/default/card/card-catalog-slider.html"
+							block_prefix="card-item__" 
+							block_mod="is--catalog-slider"
+							block_link="{{page.catalog_card}}"
+							block_preview="{{url-path-img}}/temp/card-catalog2-1-320x240.png"
+							block_heading="Керпич ХО2"
+						]]
+					</div>
+					<div class="{{block_prefix}}slick-item">
+						[[azbntple 
+							tpl="/src/block/site/default/card/card-catalog-slider.html"
+							block_prefix="card-item__" 
+							block_mod="is--catalog-slider"
+							block_link="{{page.catalog_card}}"
+							block_preview="{{url-path-img}}/temp/card-catalog3-1-320x240.png"
+							block_heading="Булыжник Х3"
+						]]
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="{{block_prefix}}label-block">
+			Прямые поставки небесных самородков для честных ценителей космических камей
+		</div>
+		<div class="{{block_prefix}}btn-block">
+			[[azbntple 
+				tpl="/src/block/site/default/button/link.html"
+				button_prefix="btn__" 
+				button_mod="  "
+				button_link="{{page.catalog}}"
+				button_name="Каталог"
+			]]
+		</div>
+	</div>	
+</header>

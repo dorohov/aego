@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body style="background-image: url({{url-path-img}}/temp/bg-page-news.png);">
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/.html"
+			class="navbar-site scroll"
+			navbar_prefix="navbar__"   
+			navbar_mod="  "
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/news-card.html"
+			content_prefix="content-block__"       
+			content_mod="is--news"    
+			block_heading_mod="is--page-heading"
+			block_heading_level="h1"
+			block_heading="Почему падают метеориты?" 
+			block_heading_small_level="div"
+			block_heading_small="Немногие знают, что такое метеорит. Почему-то люди считают, что каждое небесное камнеобразное тело, падающее на Землю или пролетающее мимо планеты, – это метеорит, но это не совсем верно." 
+		]]	
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+		]]
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

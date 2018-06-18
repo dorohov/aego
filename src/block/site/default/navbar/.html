@@ -1,0 +1,80 @@
+<nav class="{{class}} navbar {{navbar_mod}}">
+	<div class="{{navbar_prefix}}inner">
+		<div class="container {{navbar_prefix}}container">
+			<div class="{{navbar_prefix}}header">
+				<div class="row {{navbar_prefix}}row-header ">
+					<div class="cols {{navbar_prefix}}cols-header  is--brand">
+						<a class="{{navbar_prefix}}brand" href="{{page.index}}">[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="logotip" ]]</a>
+					</div>
+					<div class="cols {{navbar_prefix}}cols-header  is--hamburger">
+						<div class="{{navbar_prefix}}hamburger">
+							<button class="{{navbar_prefix}}hamburger-btn hamburger__item" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false" data-toggle-nav=".navbar-site" data-body="html" data-collapse-nav=".navbar__collapse">
+								<span class="hamburger__line  is--left"></span>
+								<span class="hamburger__line  is--center"></span>
+								<span class="hamburger__line  is--right"></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			<div class="{{navbar_prefix}}collapse" >
+				<div class="{{navbar_prefix}}collapse-inner">	
+					<div class="row {{navbar_prefix}}collapse-row">
+						<div class="cols {{navbar_prefix}}collapse-cols cols  is--left">
+							<a class="{{navbar_prefix}}brand" href="{{page.index}}">
+								[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="logotip" ]]
+							</a> 
+						</div>
+						<div class="cols {{navbar_prefix}}collapse-cols cols  is--right">
+							<ul class="{{navbar_prefix}}nav">
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Главная" 
+									navbar_link="{{page.index}}"
+									navbar_mod="is--index" 
+								]]
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item-drop-meteorites.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Метеориты" 
+									navbar_link="##"
+									navbar_mod="  " 
+								]] 
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Коллекции" 
+									navbar_link="{{page.catalog}}"
+									navbar_mod="  " 
+								]]
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Команда" 
+									navbar_link="{{page.team}}"
+									navbar_mod="  " 
+								]]		
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item-drop-activity.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Деятельность"
+									navbar_link="##"
+									navbar_mod="  " 
+								]]
+								[[azbntple 
+									tpl="/src/block/site/default/navbar/item.html" 
+									navbar_prefix="navbar__" 
+									navbar_name="Новости"
+									navbar_link="{{page.news}}"
+									navbar_mod="  " 
+								]]
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>

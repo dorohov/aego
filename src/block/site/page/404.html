@@ -1,0 +1,36 @@
+<main class="{{content_prefix}}panel" role="main">		
+	[[azbntple 
+		tpl="/src/block/site/default/bg/card.html"
+		block_prefix="bg-block__"
+		block_mod="is--404-1220x600"
+		block_bg="bg-404-1220x600.png"
+		block_speed="is--speed-5  is--parallax"
+	]]	
+	[[azbntple 
+		tpl="/src/block/site/default/bg/card.html"
+		block_prefix="bg-block__"
+		block_mod="is--404-205x205"
+		block_bg="bg-404-205x205.png"
+		block_speed="is--speed-15  is--parallax"
+	]]
+	<div class="{{content_prefix}}container container  is--full">
+		[[azbntple 
+			tpl="/src/block/site/default/page-header/panel-group.html"
+			block_prefix="{{content_prefix}}" 
+			block_mod="{{block_heading_mod}}"
+			block_heading_level="{{block_heading_level}}"
+			block_heading="{{block_heading}}"
+			block_heading_small_level="{{block_heading_small_level}}"
+			block_heading_small="{{block_heading_small}}"
+		]]
+		<div class="{{content_prefix}}btn  {{content_mod}}">		
+			[[azbntple 
+				tpl="/src/block/site/default/button/link.html"
+				button_prefix="btn__" 
+				button_mod="  "
+				button_link="{{page.index}}"
+				button_name="Ha главную"
+			]] 
+		</div>
+	</div>
+</main>

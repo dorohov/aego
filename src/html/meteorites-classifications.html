@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body style="background-image: url({{url-path-img}}/temp/bg-page-news.png);">
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/.html"
+			class="navbar-site scroll"
+			navbar_prefix="navbar__"   
+			navbar_mod="  "
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/classifications.html"
+			content_prefix="content-block__"       
+			content_mod="is--classifications"    
+			block_heading_mod="is--page-heading"
+			block_heading_level="h1"
+			block_heading="Классификация метеоритов" 
+			block_heading_small_level="div"
+			block_heading_small="В истории осталось немало имен храбрых искателей приключений, которые неустанно стремились расширить границы нашего мира." 
+		]]	
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+		]]
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]
+	</body>
+</html>

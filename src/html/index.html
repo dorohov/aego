@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU"> 
+	<head>
+		[[azbntple 
+			tpl="/src/block/site/default/head/.html" 
+			title=" "
+			description=" "
+		]] 		
+	</head>
+	<body style="background-image: url({{url-path-img}}/temp/bg-page-index.png);">
+		[[azbntple 
+			tpl="/src/block/site/default/navbar/.html"
+			class="navbar-site scroll"
+			navbar_prefix="navbar__"   
+			navbar_mod="  "     
+		]] 
+		[[azbntple 
+			tpl="/src/block/site/default/header/panel.html"
+			block_prefix="header-block__"
+			block_heading="Метеориты"
+			block_heading_small="Коллекции для настоящих ценителей космоса"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/activity-index.html"
+			content_prefix="content-block__"       
+			content_mod="is--activity-index"
+			block_heading_mod="is--activity-index"
+			block_heading_level="h2"
+			block_heading="Деятельность" 
+			block_heading_small_level="div"
+			block_heading_small="Работаем для людей,<br> постоянно в поиске,<br> консультации"
+		]]
+		[[azbntple  
+			tpl="/src/block/site/page/reviews-index.html"
+			content_prefix="content-block__"       
+			content_mod="is--reviews-index"
+			block_heading_mod="is--reviews-index"
+			block_heading_level="h2"
+			block_heading="Предзаказ" 
+			block_heading_small_level="div"
+			block_heading_small="Заполняйте форму<br> и мы ответим"
+		]]
+		[[azbntple 
+			tpl="/src/block/site/default/footer/.html"
+			footer_prefix="footer__" 
+		]]		
+		[[azbntple tpl="/src/block/site/default/script/script.html" ]]  
+	</body>
+</html>

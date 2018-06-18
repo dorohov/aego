@@ -1,0 +1,47 @@
+<li class="{{navbar_prefix}}nav-item dropdown  {{navbar_mod}}">
+	<a href="#" class="dropdown-toggle {{navbar_prefix}}nav-link" data-toggle="dropdown">
+		<div class="{{navbar_prefix}}nav-caret">
+			[[azbntple tpl="/src/block/site/default/svg-sprite/.html" icon-name="navbar-dropdown" ]]
+		</div>
+		{{navbar_name}}
+	</a>
+	<div class="{{navbar_prefix}}nav-dropdown dropdown-menu">				
+		<ul class="{{navbar_prefix}}nav-dropdown-menu">					
+			[[azbntple 
+				tpl="/src/block/site/default/navbar/item-drop-link.html" 
+				navbar_prefix="navbar__" 
+				navbar_mod="  "
+				navbar_name="Описание"
+				navbar_link="#/"
+			]]			
+			[[azbntple 
+				tpl="/src/block/site/default/navbar/item-drop-link.html" 
+				navbar_prefix="navbar__" 
+				navbar_mod="  "
+				navbar_name="Производство"
+				navbar_link="#/"
+			]]			
+			[[azbntple 
+				tpl="/src/block/site/default/navbar/item-drop-link.html" 
+				navbar_prefix="navbar__" 
+				navbar_mod="  "
+				navbar_name="Наука"
+				navbar_link="#/"
+			]]			
+			[[azbntple 
+				tpl="/src/block/site/default/navbar/item-drop-link.html" 
+				navbar_prefix="navbar__" 
+				navbar_mod="  "
+				navbar_name="Регистрация/сертификация"
+				navbar_link="#/"
+			]]			
+			[[azbntple 
+				tpl="/src/block/site/default/navbar/item-drop-link.html" 
+				navbar_prefix="navbar__" 
+				navbar_mod="  "
+				navbar_name="Экспедиции"
+				navbar_link="{{page.activity_expeditions}}"
+			]]
+		</ul>
+	</div>
+</li>
