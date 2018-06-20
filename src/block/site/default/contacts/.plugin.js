@@ -1,4 +1,4 @@
-function initMap() {  
+/*function initMap() {  
   var map_container_div_id = 'map-google';
   var cont = $('#' + map_container_div_id);  
   var CMS__TPL_PATH = '/wp-content/themes/azbn7theme';  
@@ -38,7 +38,7 @@ function initMap() {
         }
       }
 
-      /*if(map_data.placemarks2.length) {
+      if(map_data.placemarks2.length) {
         for(var i = 0; i < map_data.placemarks2.length; i++) {
           var iconCoordOfficeOne2 = {lat: map_data.placemarks2[i].coord[0],  lng: map_data.placemarks2[i].coord[1]}, 
           OfficeOne = new google.maps.Marker({
@@ -48,7 +48,7 @@ function initMap() {
             title: map_data.placemarks2_title,
           });
         }
-      }*/
+      }
       
       
       //$(window).on('resize', function() {
@@ -78,4 +78,4 @@ $(function () {
     event.preventDefault();
     $(window).trigger('resize');    
   });  
-});
+});*/
